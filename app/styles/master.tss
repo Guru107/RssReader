@@ -1,0 +1,22 @@
+"#master[platform=android]":{
+	exitOnClose:true,
+	navBarHidden:true
+}
+
+"#header":{
+	height:'50dp',
+	width:Ti.UI.FILL,
+	align:'center',
+	backgroundGradient:{
+		type:'linear',
+		startPont:{x:'0%',y:'0%'},
+		endPoint:{x:'0%',y:'100%'},
+		colors:[{ color: '#c1cedf', offset:'0.0' },
+		{ color: '#597498', offset:'1.0' }]
+	},
+	color:'#fff',
+	font:{
+		fontSize:'24dp',
+		fontWeight:'bold'
+	}
+}

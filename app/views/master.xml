@@ -1,0 +1,11 @@
+<Alloy>
+	<Window title="RSS Reader" id="master">
+		<Menu platform="android">
+			<MenuItem title="Refresh" onClick="refreshRss"></MenuItem>
+		</Menu>
+		<ProgressIndicator ns="Ti.UI.Android" platform="android" id="progressIndicator"
+         message="Loading..." min="0" max="10" cancelable="true"
+         location="Ti.UI.Android.PROGRESS_INDICATOR_DIALOG"
+         type="Ti.UI.Android.PROGRESS_INDICATOR_DETERMINANT" />
+	</Window>
+</Alloy>
